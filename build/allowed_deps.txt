@@ -13,6 +13,7 @@
 # See go/apex-allowed-deps-error for more details.
 # TODO(b/157465465): introduce automated quality signals and remove this list.
 
+adbroot_aidl_interface-ndk_platform(minSdkVersion:apex_inherit)
 android.hardware.cas.native@1.0(minSdkVersion:29)
 android.hardware.cas@1.0(minSdkVersion:29)
 android.hardware.common-ndk_platform(minSdkVersion:29)
@@ -682,6 +683,7 @@ prebuilt_com.google.android.material_material-nodeps(minSdkVersion:(no version))
 prebuilt_com.google.android.material_material-nodeps(minSdkVersion:14)
 prebuilt_error_prone_annotations(minSdkVersion:(no version))
 prebuilt_error_prone_annotations(minSdkVersion:current)
+prebuilt_FluidUI(minSdkVersion:30)
 prebuilt_kotlin-stdlib(minSdkVersion:current)
 prebuilt_kotlinx-coroutines-android-nodeps(minSdkVersion:(no version))
 prebuilt_kotlinx-coroutines-android-nodeps(minSdkVersion:current)
